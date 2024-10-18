@@ -137,7 +137,6 @@
   <ItemGroup>
     <ClInclude Include="initialize.h" />
     <ClInclude Include="LexicalAnalyzerGenerator.h" />
-    <ClInclude Include="resource.h" />
     <ClInclude Include="syn.h" />
   </ItemGroup>
   <ItemGroup>

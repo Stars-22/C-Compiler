@@ -2,7 +2,7 @@
 #include <cstring>
 #include "initialize.cpp"
 #include "syn.cpp"
-#include "LexicalAnalyzerGenerator.h"
+#include "LexicalAnalyzerGenerator.cpp"
 
 
 

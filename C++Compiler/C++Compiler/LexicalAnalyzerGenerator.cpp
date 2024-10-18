@@ -1,6 +1,6 @@
 #include "LexicalAnalyzerGenerator.h"
 #include <iostream>
-#include <string>
+#include <cstring>
 #include <cctype>  // 用于字符检测函数如 isalpha, isdigit
 #include <unordered_map>
 #include "syn.h"
@@ -110,7 +110,6 @@ std::string LexicalAnalyzerGenerator::splitword(size_t& p, int& status) {
 		status = temp;
 		p++;
 	}
-	if (p == file.length()) p--;
 	if (start >= p) return "";
 	return file.substr(start, p - start);  // 返回词汇
 }

@@ -1,8 +1,17 @@
 ﻿  C++Compiler.cpp
   initialize.cpp
+  LexicalAnalyzerGenerator.cpp
+  syn.cpp
   正在生成代码...
 LINK : warning LNK4075: 忽略“/INCREMENTAL”(由于“/FORCE”规范)
+LexicalAnalyzerGenerator.obj : warning LNK4006: "public: __cdecl LexicalAnalyzerGenerator::LexicalAnalyzerGenerator(class std::basic_string<char,struct std::char_traits<char>,class std::allocator<char> >)" (??0LexicalAnalyzerGenerator@@QEAA@V?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@@Z) 已在 C++Compiler.obj 中定义；已忽略第二个定义
+LexicalAnalyzerGenerator.obj : warning LNK4006: "public: void __cdecl LexicalAnalyzerGenerator::analyze(void)" (?analyze@LexicalAnalyzerGenerator@@QEAAXXZ) 已在 C++Compiler.obj 中定义；已忽略第二个定义
+LexicalAnalyzerGenerator.obj : warning LNK4006: "private: bool __cdecl LexicalAnalyzerGenerator::compare(char,char,char)" (?compare@LexicalAnalyzerGenerator@@AEAA_NDDD@Z) 已在 C++Compiler.obj 中定义；已忽略第二个定义
+LexicalAnalyzerGenerator.obj : warning LNK4006: "private: void __cdecl LexicalAnalyzerGenerator::handlePreprocessorDirective(class std::basic_string<char,struct std::char_traits<char>,class std::allocator<char> > const &)" (?handlePreprocessorDirective@LexicalAnalyzerGenerator@@AEAAXAEBV?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@@Z) 已在 C++Compiler.obj 中定义；已忽略第二个定义
+LexicalAnalyzerGenerator.obj : warning LNK4006: "private: class std::basic_string<char,struct std::char_traits<char>,class std::allocator<char> > __cdecl LexicalAnalyzerGenerator::readDirective(unsigned __int64 &)" (?readDirective@LexicalAnalyzerGenerator@@AEAA?AV?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@AEA_K@Z) 已在 C++Compiler.obj 中定义；已忽略第二个定义
+LexicalAnalyzerGenerator.obj : warning LNK4006: "private: class std::basic_string<char,struct std::char_traits<char>,class std::allocator<char> > __cdecl LexicalAnalyzerGenerator::splitword(unsigned __int64 &,int &)" (?splitword@LexicalAnalyzerGenerator@@AEAA?AV?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@AEA_KAEAH@Z) 已在 C++Compiler.obj 中定义；已忽略第二个定义
+LexicalAnalyzerGenerator.obj : warning LNK4006: "private: int __cdecl LexicalAnalyzerGenerator::statusConversion(int,unsigned __int64 &)" (?statusConversion@LexicalAnalyzerGenerator@@AEAAHHAEA_K@Z) 已在 C++Compiler.obj 中定义；已忽略第二个定义
 LexicalAnalyzerGenerator.obj : warning LNK4006: "char const * * SynCoding" (?SynCoding@@3PAPEBDA) 已在 C++Compiler.obj 中定义；已忽略第二个定义
 syn.obj : warning LNK4006: "char const * * SynCoding" (?SynCoding@@3PAPEBDA) 已在 C++Compiler.obj 中定义；已忽略第二个定义
-E:\programs\C++\C++Compiler\x64\Debug\C++Compiler.exe : warning LNK4088: 因 /FORCE 选项生成了映像；映像可能不能运行
-  C++Compiler.vcxproj -> E:\programs\C++\C++Compiler\x64\Debug\C++Compiler.exe
+E:\programs\C++\Cpp-Compiler\C++Compiler\x64\Debug\C++Compiler.exe : warning LNK4088: 因 /FORCE 选项生成了映像；映像可能不能运行
+  C++Compiler.vcxproj -> E:\programs\C++\Cpp-Compiler\C++Compiler\x64\Debug\C++Compiler.exe

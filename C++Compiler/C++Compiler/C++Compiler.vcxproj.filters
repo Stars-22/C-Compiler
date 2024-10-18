@@ -13,6 +13,9 @@
       <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
       <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
     </Filter>
+    <Filter Include="源文件\Lexical Analyzer">
+      <UniqueIdentifier>{dbd10c50-d012-4aa1-aad8-03129a483812}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="C++Compiler.cpp">
@@ -25,21 +28,18 @@
       <Filter>源文件</Filter>
     </ClCompile>
     <ClCompile Include="LexicalAnalyzerGenerator.cpp">
-      <Filter>源文件</Filter>
+      <Filter>源文件\Lexical Analyzer</Filter>
     </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="initialize.h">
       <Filter>头文件</Filter>
     </ClInclude>
-    <ClInclude Include="resource.h">
-      <Filter>头文件</Filter>
-    </ClInclude>
     <ClInclude Include="syn.h">
       <Filter>头文件</Filter>
     </ClInclude>
     <ClInclude Include="LexicalAnalyzerGenerator.h">
-      <Filter>头文件</Filter>
+      <Filter>源文件\Lexical Analyzer</Filter>
     </ClInclude>
   </ItemGroup>
   <ItemGroup>
