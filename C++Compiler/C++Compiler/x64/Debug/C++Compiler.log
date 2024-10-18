@@ -1,0 +1,8 @@
+﻿  C++Compiler.cpp
+  initialize.cpp
+  正在生成代码...
+LINK : warning LNK4075: 忽略“/INCREMENTAL”(由于“/FORCE”规范)
+LexicalAnalyzerGenerator.obj : warning LNK4006: "char const * * SynCoding" (?SynCoding@@3PAPEBDA) 已在 C++Compiler.obj 中定义；已忽略第二个定义
+syn.obj : warning LNK4006: "char const * * SynCoding" (?SynCoding@@3PAPEBDA) 已在 C++Compiler.obj 中定义；已忽略第二个定义
+E:\programs\C++\C++Compiler\x64\Debug\C++Compiler.exe : warning LNK4088: 因 /FORCE 选项生成了映像；映像可能不能运行
+  C++Compiler.vcxproj -> E:\programs\C++\C++Compiler\x64\Debug\C++Compiler.exe
